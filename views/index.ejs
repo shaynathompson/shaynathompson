@@ -216,6 +216,7 @@
 					  <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
 					  <li data-target="#myCarousel" data-slide-to="1"></li>
 					  <li data-target="#myCarousel" data-slide-to="2"></li>
+					
 			
 					 
 					</ol>
@@ -353,10 +354,13 @@
 							<a href="#" data-filter="*">All</a>
 						</li>
 						<li class="wow fadeInRight" data-wow-delay=".3s">
-							<a href="#" data-filter=".logo">node.js</a>
+							<a href="#" data-filter=".node">node.js</a>
 						</li>
 						<li class="wow fadeInRight" data-wow-delay=".6s">
-							<a href="#" data-filter=".webdesign">php</a>
+							<a href="#" data-filter=".php">php</a>
+						</li>
+						<li class="wow fadeInRight" data-wow-delay=".6s">
+								<a href="#" data-filter=".mobile">Mobile</a>
 						</li>
 						<!--<li class="wow fadeInRight" data-wow-delay=".9s">
 							<a href="#" data-filter=".photography">java</a>
@@ -369,15 +373,90 @@
 			<div class="container masonry-wrapper">
 			
 				<div id="projects-container">
+
+					  <!-- ==== PROJECT ITEM ==== -->
+					  <article class="project-item photography mobile" data-toggle="modal" data-target=".project-item-1">
+							<img class="img-responsive project-image" src="images/projects/notepad.jpeg" alt="fbs"><!--Project thumb -->
+							<h2 class="project-title">Notepad App</h2><!--Project Title -->
+						</article>
+						
+						<!--==== Project Modal ====-->
+						<div class="modal fade project-item-1">
+						  <div class="modal-dialog modal-lg">
+							<div class="modal-content">
+							  <div class="modal-header">
+								<button type="button" class="close" data-dismiss="modal"><span aria-hidden="true"><i class="fa fa-times"></i>
+							</span><span class="sr-only">Close</span></button>
+								  <h4 class="modal-title">Notepad App<span>Mobile</span></h4><!--Modal Title, Subtitle -->
+								<img src="images/projects/notepad2.jpeg" alt="fbs" />
+							  </div>
+							  <div class="modal-body">
+								<p>This app was created as a demo for a research paper which discussed Ionic Framework as cross-platform development tool. The app was deployed on both iOS and Android OS</p>
+								</div>
+							</div>
+						  </div>
+						</div>
+						<!-- ==== END PROJECT ITEM ==== -->	
+
+						 <!-- ==== PROJECT ITEM ==== -->
+						 <article class="project-item photography mobile" data-toggle="modal" data-target=".project-item-1">
+								<img class="img-responsive project-image" src="images/projects/fbsmobile.jpg" alt="fbs"><!--Project thumb -->
+								<h2 class="project-title">Fula Buy & Sell Mobile</h2><!--Project Title -->
+							</article>
+							
+							<!--==== Project Modal ====-->
+							<div class="modal fade project-item-1">
+							  <div class="modal-dialog modal-lg">
+								<div class="modal-content">
+								  <div class="modal-header">
+									<button type="button" class="close" data-dismiss="modal"><span aria-hidden="true"><i class="fa fa-times"></i>
+								</span><span class="sr-only">Close</span></button>
+									  <h4 class="modal-title">Fula Buy & Sell Mobile<span>Mobile</span></h4><!--Modal Title, Subtitle -->
+									<img src="images/projects/fbsmobile.jpg" alt="fbs" />
+								  </div>
+								  <div class="modal-body">
+									<p>A mobile version of the Fulda Buy & Sell web-base project was  . The app was deployed on Android OS</p>
+									</div>
+								</div>
+							  </div>
+							</div>
+							<!-- ==== END PROJECT ITEM ==== -->	
+
+
+
+					  <!-- ==== PROJECT ITEM ==== -->
+					  <article class="project-item photography node" data-toggle="modal" data-target=".project-item-2">
+							<img class="img-responsive project-image" src="images/projects/fbs.jpg"  alt="fbs"><!--Project thumb -->
+							<h2 class="project-title">Fulda Buy & Sell</h2><!--Project Title -->
+						</article>
+						
+						<!--==== Project Modal ====-->
+						<div class="modal fade project-item-2">
+						  <div class="modal-dialog modal-lg">
+							<div class="modal-content">
+							  <div class="modal-header">
+								<button type="button" class="close" data-dismiss="modal"><span aria-hidden="true"><i class="fa fa-times"></i>
+	</span><span class="sr-only">Close</span></button>
+								  <h4 class="modal-title">Fulda Buy & Sell<span>node.js</span></h4><!--Modal Title, Subtitle -->
+								<img src="images/projects/fbs2.jpg" alt="fbs" />
+							  </div>
+							  <div class="modal-body">
+								<p>A web-based buy and sell application for students of Hochschule Fulda. This website was developed in collaboration with a 5 member team as a project for the Global Software Devlopment course. Role: Team lead and Back end developer</p>
+								</div>
+							</div>
+						  </div>
+						</div>
+						<!-- ==== END PROJECT ITEM ==== -->	
+					   
 				
 					<!-- ==== PROJECT ITEM ==== -->
-					<article class="project-item webdesign" data-toggle="modal" data-target=".project-item-1">
+					<article class="project-item php" data-toggle="modal" data-target=".project-item-3">
 						<img class="img-responsive project-image" src="images/projects/belizecityapp.jpg" alt="belizecity"><!--Project thumb -->
                         <h2 class="project-title">BelizeCity App</h2><!--Project Title -->
 					</article>
                     
                     <!--==== Project Modal ====-->
-                    <div class="modal fade project-item-1">
+                    <div class="modal fade project-item-3">
                       <div class="modal-dialog modal-lg">
                         <div class="modal-content">
                           <div class="modal-header">
@@ -395,13 +474,13 @@
 					<!-- ==== END PROJECT ITEM ==== -->	
                     
                     <!-- ==== PROJECT ITEM ==== -->
-					<article class="project-item photography logo" data-toggle="modal" data-target=".project-item-2">
+					<article class="project-item photography node" data-toggle="modal" data-target=".project-item-4">
 						<img class="img-responsive project-image" src="images/projects/tdd.jpg"  alt="tdd"><!--Project thumb -->
                         <h2 class="project-title">LTE-TDD Provisioning Portal</h2><!--Project Title -->
 					</article>
                     
                     <!--==== Project Modal ====-->
-                    <div class="modal fade project-item-2">
+                    <div class="modal fade project-item-4">
                       <div class="modal-dialog modal-lg">
                         <div class="modal-content">
                           <div class="modal-header">
@@ -426,13 +505,13 @@
 					<!-- ==== END PROJECT ITEM ==== -->	
                     
                     <!-- ==== PROJECT ITEM ==== -->
-					<article class="project-item photography logo" data-toggle="modal" data-target=".project-item-3">
+					<article class="project-item photography node" data-toggle="modal" data-target=".project-item-5">
 						<img class="img-responsive project-image" src="images/projects/blog.jpg"  alt="blog"><!--Project thumb -->
                         <h2 class="project-title">Blog</h2><!--Project Title -->
 					</article>
                     
                     <!--==== Project Modal ====-->
-                    <div class="modal fade project-item-3">
+                    <div class="modal fade project-item-5">
                       <div class="modal-dialog modal-lg">
                         <div class="modal-content">
                           <div class="modal-header">
